@@ -12,7 +12,7 @@
    function sum_of_digits($my_num){
     // la variable $sum est initialiser à 0
       $sum = 0;
-      // un bouclr for permettant de caluculer la longeur du nombre avec la function strlen()
+      // une boucle for permettant de caluculer la longeur du nombre avec la function strlen()
       for ($i = 0; $i < strlen($my_num); $i++){
          $sum += $my_num[$i];
       }
